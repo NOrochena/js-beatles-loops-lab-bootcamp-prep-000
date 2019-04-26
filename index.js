@@ -9,3 +9,13 @@ function theBeatlesPlay(arrmusic, arrinstru) {
   
   return arr
 }
+
+function johnLennonFacts(arr){
+  var arr2 = []
+  var countup = 0
+  while (countup < arr.length) {
+    arr2.push(arr[countup] + "!!!")
+    countup++
+  }
+  return arr2
+}
