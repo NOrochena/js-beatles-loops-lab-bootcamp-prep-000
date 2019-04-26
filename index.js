@@ -22,4 +22,10 @@ function johnLennonFacts(arr){
 
 function iLoveTheBeatles(num){
   var arr = []
+  
+  do {
+    arr.push("I love the Beatles!")
+  } while ( 1 >= 2)
+  
+  return arr
 }
