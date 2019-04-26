@@ -3,7 +3,7 @@
 function theBeatlesPlay(arrmusic, arrinstru) {
   var arr = [];
   
-  for (var i = 0; i < arr.length; i++){
+  for (var i = 0; i < arrmusic.length; i++){
     arr.push(arrmusic[0] + " plays " + arrinstru[0])
   }
   
