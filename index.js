@@ -22,10 +22,13 @@ function johnLennonFacts(arr){
 
 function iLoveTheBeatles(num){
   var arr = []
-  function increment()
+  
+  function increment(){
+    return num + 1  
+  }
   do {
     arr.push("I love the Beatles!")
-  } while ( num < 15)
+  } while ( increment() < 15)
   
   return arr
 }
